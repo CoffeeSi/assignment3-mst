@@ -1,21 +1,21 @@
 package com.coffeesi.graph;
 
 public class Edge {
-    private String start;
-    private String end;
+    private String from;
+    private String to;
     private double weight;
     
-    public Edge(String start, String end, double weight) {
-        this.start = start;
-        this.end = end;
+    public Edge(String from, String to, double weight) {
+        this.from = from;
+        this.to = to;
         this.weight = weight;
     }
 
-    public String getStart() { return start; }
-    public String getEnd() { return end; }
+    public String getFrom() { return from; }
+    public String getTo() { return to; }
     public double getWeight() { return weight; }
 
     public String toString() {
-        return start + " -> " + end + " : " + weight; 
+        return from + " -> " + to + " : " + weight; 
     }
 }
