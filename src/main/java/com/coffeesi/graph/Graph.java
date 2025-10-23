@@ -17,7 +17,7 @@ public class Graph {
     public List<String> getNodes() { return nodes; }
     public List<Edge> getEdges() { return edges; }
 
-    public void addEdge(String start, String end, double weight) {
+    public void addEdge(String start, String end, int weight) {
         edges.add(new Edge(start, end, weight));
     }
 

@@ -3,9 +3,9 @@ package com.coffeesi.graph;
 public class Edge {
     private String from;
     private String to;
-    private double weight;
+    private int weight;
     
-    public Edge(String from, String to, double weight) {
+    public Edge(String from, String to, int weight) {
         this.from = from;
         this.to = to;
         this.weight = weight;
@@ -13,7 +13,7 @@ public class Edge {
 
     public String getFrom() { return from; }
     public String getTo() { return to; }
-    public double getWeight() { return weight; }
+    public int getWeight() { return weight; }
 
     public String toString() {
         return from + " -> " + to + " : " + weight; 
