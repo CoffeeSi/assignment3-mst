@@ -19,7 +19,7 @@ public class Prim {
     public List<Edge> getMSTEdges() { return mst_edges; }
     public int getTotalCost() { return total_cost; }
     public int getOperationsCount() { return operations_count; }
-    public double getExecutionsTimeMs() { return execution_time_ms; }
+    public double getExecutionTimeMs() { return execution_time_ms; }
     
     // Prim's algorithm method
     public void primMST(Graph graph) {
