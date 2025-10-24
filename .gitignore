@@ -17,6 +17,3 @@ buildNumber.properties
 .classpath
 
 .vscode/
-
-*.json
-*.csv
